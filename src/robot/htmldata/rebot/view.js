@@ -58,7 +58,7 @@ function addReportOrLogLink(myType) {
     var container = $('#report-or-log-link');
     if (myType == 'Report') {
         url = window.settings.logURL;
-        text = 'LOG';
+        text = 'CAPCO';
     } else {
         url = window.settings.reportURL;
         text = 'REPORT';
